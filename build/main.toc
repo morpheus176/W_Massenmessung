@@ -12,11 +12,11 @@
 \beamer@subsectionintoc {2}{3}{Detektoren}{15}{0}{2}
 \beamer@subsubsectionintoc {2}{3}{1}{CDF}{15}{0}{2}
 \beamer@subsubsectionintoc {2}{3}{2}{D0}{16}{0}{2}
-\beamer@sectionintoc {3}{Messstrategie}{17}{0}{3}
+\beamer@sectionintoc {3}{Messstrategie und Unsicherheiten am Beispiel von CDF Run II Daten}{17}{0}{3}
 \beamer@subsectionintoc {3}{1}{Event Generation}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Track Momentum Calibration}{18}{0}{3}
-\beamer@subsectionintoc {3}{3}{Calorimeter Energy Calibration}{19}{0}{3}
-\beamer@subsectionintoc {3}{4}{Hadronic Recoil Measurement and Simulation}{20}{0}{3}
-\beamer@subsectionintoc {3}{5}{Backgrounds}{21}{0}{3}
-\beamer@subsectionintoc {3}{6}{Mass Fit and Systematics}{22}{0}{3}
-\beamer@sectionintoc {4}{Literatur}{24}{0}{4}
+\beamer@subsectionintoc {3}{2}{Track Momentum Calibration}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Calorimeter Energy Calibration}{21}{0}{3}
+\beamer@subsectionintoc {3}{4}{Hadronic Recoil Measurement and Simulation}{22}{0}{3}
+\beamer@subsectionintoc {3}{5}{Backgrounds}{23}{0}{3}
+\beamer@subsectionintoc {3}{6}{Mass Fit and Systematics}{25}{0}{3}
+\beamer@sectionintoc {4}{Literatur}{27}{0}{4}

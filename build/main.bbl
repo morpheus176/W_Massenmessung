@@ -91,6 +91,34 @@
       \verb http://hepd.pnpi.spb.ru/hepd/images/d0.jpg
       \endverb
     \endentry
+    \entry{gfitter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=70b87203ba67e88a6d7efaa1272a14ba}{%
+           family={GFitter},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \strng{fullhash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \strng{bibnamehash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \strng{authorbibnamehash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \strng{authornamehash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \strng{authorfullhash}{70b87203ba67e88a6d7efaa1272a14ba}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Results for the Global Electroweak Standard Model Fit}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://gfitter.desy.de/Figures/Standard_Model/2014_07_16_Scan2D_MWvsmt_logo_large.gif
+      \endverb
+      \verb{url}
+      \verb http://gfitter.desy.de/Figures/Standard_Model/2014_07_16_Scan2D_MWvsmt_logo_large.gif
+      \endverb
+    \endentry
     \entry{standard_model}{online}{}
       \name{author}{1}{}{%
         {{hash=8f470cf587bd8e029b4025a023ec5320}{%

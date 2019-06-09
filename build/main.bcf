@@ -1998,11 +1998,12 @@
     <bcf:citekey order="1">standard_model</bcf:citekey>
     <bcf:citekey order="2">skript</bcf:citekey>
     <bcf:citekey order="3">skript</bcf:citekey>
-    <bcf:citekey order="4">vorlesung</bcf:citekey>
+    <bcf:citekey order="4">gfitter</bcf:citekey>
     <bcf:citekey order="5">vorlesung</bcf:citekey>
-    <bcf:citekey order="6">accelerator_chain</bcf:citekey>
-    <bcf:citekey order="7">CDF_aufbau</bcf:citekey>
-    <bcf:citekey order="8">D0</bcf:citekey>
+    <bcf:citekey order="6">vorlesung</bcf:citekey>
+    <bcf:citekey order="7">accelerator_chain</bcf:citekey>
+    <bcf:citekey order="8">CDF_aufbau</bcf:citekey>
+    <bcf:citekey order="9">D0</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
