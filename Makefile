@@ -11,7 +11,7 @@ texoptions = \
 
 build/main.pdf: FORCE | build
 	latexmk $(texoptions) main.tex
-	# cp build/main.pdf $(Filename) # PDF bewegen und umbenennen
+	cp build/main.pdf W_Massenmessung.pdf # PDF bewegen und umbenennen
 
 preview: FORCE | build
 	latexmk $(texoptions) -pvc main.tex
