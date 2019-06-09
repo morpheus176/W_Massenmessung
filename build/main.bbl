@@ -1,0 +1,189 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{accelerator_chain}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mu2e.fnal.gov/images_v2/00-0635D.jpg
+      \endverb
+      \verb{url}
+      \verb https://mu2e.fnal.gov/images_v2/00-0635D.jpg
+      \endverb
+    \endentry
+    \entry{CDF_aufbau}{online}{}
+      \name{author}{1}{}{%
+        {{hash=645000fd30cb19b91c364053019e9a32}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CDF},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{645000fd30cb19b91c364053019e9a32}
+      \strng{fullhash}{645000fd30cb19b91c364053019e9a32}
+      \strng{bibnamehash}{645000fd30cb19b91c364053019e9a32}
+      \strng{authorbibnamehash}{645000fd30cb19b91c364053019e9a32}
+      \strng{authornamehash}{645000fd30cb19b91c364053019e9a32}
+      \strng{authorfullhash}{645000fd30cb19b91c364053019e9a32}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Operational Experience, Improvements, and Performance of the CDF Run II Silicon Vertex Detector}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://inspirehep.net/record/1211048
+      \endverb
+      \verb{url}
+      \verb http://inspirehep.net/record/1211048
+      \endverb
+    \endentry
+    \entry{D0}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a4becc339ec8c8015152b9e2014ed001}{%
+           family={Division},
+           familyi={D\bibinitperiod},
+           given={High\bibnamedelimb Energy\bibnamedelima Physics},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4becc339ec8c8015152b9e2014ed001}
+      \strng{fullhash}{a4becc339ec8c8015152b9e2014ed001}
+      \strng{bibnamehash}{a4becc339ec8c8015152b9e2014ed001}
+      \strng{authorbibnamehash}{a4becc339ec8c8015152b9e2014ed001}
+      \strng{authornamehash}{a4becc339ec8c8015152b9e2014ed001}
+      \strng{authorfullhash}{a4becc339ec8c8015152b9e2014ed001}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://hepd.pnpi.spb.ru/hepd/images/d0.jpg
+      \endverb
+      \verb{url}
+      \verb http://hepd.pnpi.spb.ru/hepd/images/d0.jpg
+      \endverb
+    \endentry
+    \entry{standard_model}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8f470cf587bd8e029b4025a023ec5320}{%
+           family={Greiter},
+           familyi={G\bibinitperiod},
+           given={Dr.\bibnamedelimi Gebhard},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f470cf587bd8e029b4025a023ec5320}
+      \strng{fullhash}{8f470cf587bd8e029b4025a023ec5320}
+      \strng{bibnamehash}{8f470cf587bd8e029b4025a023ec5320}
+      \strng{authorbibnamehash}{8f470cf587bd8e029b4025a023ec5320}
+      \strng{authornamehash}{8f470cf587bd8e029b4025a023ec5320}
+      \strng{authorfullhash}{8f470cf587bd8e029b4025a023ec5320}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Standardmodell der Elementarteilchen}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://greiterweb.de/spw/Standardmodell-Elementarteilchen.htm
+      \endverb
+      \verb{url}
+      \verb http://greiterweb.de/spw/Standardmodell-Elementarteilchen.htm
+      \endverb
+    \endentry
+    \entry{vorlesung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8dd2c06d0c5a238ab46f4322f00c29a3}{%
+           family={Husemann},
+           familyi={H\bibinitperiod},
+           given={Dr.\bibnamedelimi Ulrich},
+           giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{fullhash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{bibnamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authorbibnamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authornamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authorfullhash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimentelle Elementarteilchenphysik (P23.1.1)}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www-zeuthen.desy.de/~husemann/teaching/2009_ss/exp_teilchenphysik/skript/exp_teilchenphysik_folien.pdf
+      \endverb
+      \verb{url}
+      \verb https://www-zeuthen.desy.de/~husemann/teaching/2009_ss/exp_teilchenphysik/skript/exp_teilchenphysik_folien.pdf
+      \endverb
+    \endentry
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8dd2c06d0c5a238ab46f4322f00c29a3}{%
+           family={Husemann},
+           familyi={H\bibinitperiod},
+           given={Dr.\bibnamedelimi Ulrich},
+           giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{fullhash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{bibnamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authorbibnamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authornamehash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \strng{authorfullhash}{8dd2c06d0c5a238ab46f4322f00c29a3}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physik der W-Bosonen}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www-zeuthen.desy.de/~husemann/teaching/2009_ss/exp_teilchenphysik/skript/skript_04.pdf
+      \endverb
+      \verb{url}
+      \verb https://www-zeuthen.desy.de/~husemann/teaching/2009_ss/exp_teilchenphysik/skript/skript_04.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
