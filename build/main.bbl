@@ -146,7 +146,7 @@
       \verb http://inspirehep.net/record/1211048
       \endverb
     \endentry
-    \entry{comparison2}{aerticle}{}
+    \entry{comparison2}{online}{}
       \name{author}{1}{}{%
         {{hash=f5202a7f0e1cda15c149f62fd7f6b929}{%
            family={Data\bibnamedelima Group)},
@@ -168,6 +168,16 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. D98, 030001}
       \field{title}{W MASS}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://pdg.lbl.gov/2018/listings/rpp2018-list-w-boson.pdf
+      \endverb
+      \verb{url}
+      \verb http://pdg.lbl.gov/2018/listings/rpp2018-list-w-boson.pdf
+      \endverb
     \endentry
     \entry{D0}{online}{}
       \name{author}{1}{}{%

@@ -499,6 +499,11 @@ INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./images/map.png
+INPUT ./images/map.png
+INPUT ./images/map.png
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
 INPUT /home/julia/.local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/julia/.local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/julia/.local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm

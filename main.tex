@@ -222,11 +222,17 @@
 
 \subsection{Allgemeines}
 
-\begin{frame}{Allgemeines}
+\begin{frame}{Weltkarte}
+  \begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
+    \includegraphics[width=\textwidth]{images/map.png}
+  \end{beamercolorbox}%
+\end{frame}
+
+\begin{frame}{Tevatron}
     \begin{itemize}
       \item Betrieb durch das Fermilab (Batavia, Illinois)
       \item Proton-Antiproton-Beschleuniger
-      \item der sträkste Beschleuniger nach dem LHC am CERN
+      \item der stärkste Beschleuniger nach dem LHC am CERN
       \item Schwerpunktsenergie: $\SI{1,96}{\TeV}$
       \item Umfang: $\SI{6}{\km}$
       \item Run I:
@@ -327,7 +333,7 @@
     \item Durch das Abstrahlen verringert sich der Impuls des Leptons wodurch eine geringere W-Masse rekonstruiert wird
     \item Dies wird mithilfe von Simulationen korrigiert
     \item Nicht simuliert werden Photonemissionen im Anfangszustand, Interferenz und Terme höherer Ordnung
-    \item[\rightarrow] Daraus folgt eine Unsicherheit von $\num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
+    \item[\rightarrow] $\num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
 
     % In the W decay, the most important effect for the W mass measurement is the radiation
     % of a γ from a final-state l ± . This radiation results in a reduced l ± momentum, potentially
@@ -344,7 +350,7 @@
   \begin{itemize}
     \item Der Impuls eines geladenen Teilchens wird durch seine Ablenkung im Tracker bestimmt
     \item Da $p \sim \frac{1}{r}$, wird der Impuls als eine Funktion des inversen Impulses des $J/\psi$ skaliert
-    \item Um die Auflösung zu verbessern wird die Position des Strahls bei Myon-Spuren von W- und Z-Zerfällen beim Track-Fit mitberücksichtigt
+    \item Zur Verbesserung der Auflösung wird die Position des Strahls bei Myon-Spuren von W- und Z-Zerfällen beim Track-Fit mitberücksichtigt
   \end{itemize}
   % A charged particle’s momentum is measured through its observed curvature in the tracker.
   % Since the momentum is inversely proportional to curvature, the momentum scale is measured
@@ -361,7 +367,9 @@
 \begin{frame}
   \begin{itemize}
     \item Dieser Contraint kann aber nicht auf $J/\psi$-Zerfälle angewendet werden, da diese auch außerhalb der Beamline auftreten können
-    \item[\rightarrow] Verwendung von $\Upsilon$-Zerfällen, um sicherzustellen, dass der Beam-Constraint keinen Bias verursacht
+    \begin{itemize}
+      \item[\rightarrow] Verwendung von $\Upsilon$-Zerfällen, um sicherzustellen, dass der Beam-Constraint keinen Bias verursacht
+    \end{itemize}
     \item Es ergibt sich eine Unsicherheit von $\SI{15}{\MeV}$ aufgrund der unterschiedlichen Skalierungen
     \item Zusammen mit der Unsicherheit aufgrund der Tracker-Anordnung ergibt sich eine Unsicherheit von $\delta m_W (p_T \: \text{scale}) = \SI{25}{\MeV}$
   \end{itemize}
@@ -371,7 +379,7 @@
 
 \begin{frame}{Kalibration des em. Kalorimeters}
   \begin{itemize}
-    \item Nach der Impuls-Kalibration wird das elektromagnetische Kalorimeter mithilfe der Elektronen-Tracks aus den W-Zerfällen kalibriert
+    \item Das elektromagnetische Kalorimeter mithilfe der Elektronen-Tracks aus den W-Zerfällen kalibriert
     \item Die Kalorimeter-Energie wird so skaliert, dass $\frac{E}{p} = \num{1}$ gilt
     \item Um dies an eine energieabhängige Skala anzupassen, wird die $\frac{E}{p}$-Verteilung als Funktion der Elektron $E_T$ gefittet und mit einem Korrekturfaktor versehen
   \end{itemize}
@@ -394,7 +402,11 @@
     \begin{itemize}
       \item[\rightarrow] Die Unsicherheit der Menge des Materials geht direkt in die Unsicherheit der Energieskala über
     \end{itemize}
-    \item Da dies nicht so gut modelliert werden kann beträgt die Unsicherheit aufgrund des Materials $\SI{55}{\MeV}$, was den Großteil der totalen Unsicherheit von $\delta m_W (E \: \text{scale}) = \SI{70}{\MeV}$ ausmacht
+    \item Dies kann nicht gut modelliert werden
+    \begin{itemize}
+      \item[\rightarrow] Unsicherheit aufgrund des Materials beträgt $\SI{55}{\MeV}$
+    \end{itemize}
+    \item Dies macht den Großteil der totalen Unsicherheit von $\delta m_W (E \: \text{scale}) = \SI{70}{\MeV}$ ausausmacht
   \end{itemize}
 \end{frame}
 
@@ -442,8 +454,8 @@
     \end{column}
     \begin{column}{0.4\textwidth}
       \begin{itemize}
-        \item kalibriert wird $R$ mithilfe des $Z \rightarrow \ell \ell$-Zerfalls, da die Leptonenergie genauer bestimmt werden kann
-        \item es ergibt sich eine Unsicherheit von $\delta m_W (\text{recoil}) = \SI{50}{\MeV}$
+        \item Kalibriert wird $R$ mithilfe des $Z \rightarrow \ell \ell$-Zerfalls, da die Leptonenergie genauer bestimmt werden kann
+        \item Es ergibt sich eine Unsicherheit von $\delta m_W (\text{recoil}) = \SI{50}{\MeV}$
       \end{itemize}
     \end{column}
   \end{columns}
@@ -488,7 +500,7 @@
 \begin{frame}
   \begin{itemize}
     \item Die W- und Z-Untergründe werden mithilfe von Monte-Carlo-Simulationen abgeschätzt
-    \item Die Abschätzung des Dijet-Untergrundes nutzt Events mit signifikanter Energie um $\ell$ herum, um den hadronischen Untergrund zu erhöhen und eine $\cancel{\it{E}}_{T}$-Verteilung für den Untergrund zu gewinnen
+    \item Die Abschätzung des Dijet-Untergrundes erhöht den hadronischen Untergrund, um eine $\cancel{\it{E}}_{T}$-Verteilung für den Untergrund zu gewinnen
     \begin{itemize}
       \item[\rightarrow] Die $\cancel{\it{E}}_{T}$-Verteilung wird mit den W- und Dijet-Verteilungen als Input gefittet
     \end{itemize}
@@ -559,9 +571,9 @@
 \section{Fragen}
 
 \begin{frame}
-\begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
-\includegraphics[width=0.7\textwidth]{images/particle_zoo.jpg}
-\end{beamercolorbox}%
+  \begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
+    \includegraphics[width=0.7\textwidth]{images/particle_zoo.jpg}
+  \end{beamercolorbox}%
 \end{frame}
 
 % \begin{frame}{Transversale Größen}
