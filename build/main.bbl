@@ -33,6 +33,89 @@
       \verb https://mu2e.fnal.gov/images_v2/00-0635D.jpg
       \endverb
     \endentry
+    \entry{comparison}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b0c40621433afa1602a7556db78c2a27}{%
+           family={{Aaboud}},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={{Aad}},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={{Abbott}},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cb7d0f505e1a9bf19af4a06903229fb6}{%
+           family={{Abdallah}},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c424a151dc0ac1b5dabeb624fcdc69f}{%
+           family={{Abdinov}},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b67532a542be432e5b35697399f95580}{%
+           family={{Abeloos}},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1291ecc48177f6e1bdc612065e42c733}{%
+           family={{Abidi}},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
+           family={{AbouZeid}},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=afb24a9e3098c6bbffcae02436bb0939}{%
+           family={{Abraham}},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi L.},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9802d996e1c79979497e6b2566bc0358}{%
+           family={{Abramowicz}},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{fullhash}{f41ee0f1e933f4be30a2b568e9828301}
+      \strng{bibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authorbibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authornamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authorfullhash}{f41ee0f1e933f4be30a2b568e9828301}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{110}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{European Physical Journal C}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Measurement of the W-boson mass in pp collisions at {\ensuremath{\sqrt{s}}}=7 TeV with the ATLAS detector}}
+      \field{volume}{78}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5475-4
+      \endverb
+      \verb{eprint}
+      \verb 1701.07240
+      \endverb
+      \keyw{High Energy Physics - Experiment}
+    \endentry
     \entry{CDF_aufbau}{online}{}
       \name{author}{1}{}{%
         {{hash=645000fd30cb19b91c364053019e9a32}{%
@@ -63,6 +146,29 @@
       \verb http://inspirehep.net/record/1211048
       \endverb
     \endentry
+    \entry{comparison2}{aerticle}{}
+      \name{author}{1}{}{%
+        {{hash=f5202a7f0e1cda15c149f62fd7f6b929}{%
+           family={Data\bibnamedelima Group)},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={M.\bibnamedelimi Tanabashiet},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={al.(Particle},
+           prefixi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \strng{fullhash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \strng{bibnamehash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \strng{authorbibnamehash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \strng{authornamehash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \strng{authorfullhash}{f5202a7f0e1cda15c149f62fd7f6b929}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D98, 030001}
+      \field{title}{W MASS}
+    \endentry
     \entry{D0}{online}{}
       \name{author}{1}{}{%
         {{hash=a4becc339ec8c8015152b9e2014ed001}{%
@@ -89,6 +195,35 @@
       \endverb
       \verb{url}
       \verb http://hepd.pnpi.spb.ru/hepd/images/d0.jpg
+      \endverb
+    \endentry
+    \entry{tevatron}{online}{}
+      \name{author}{1}{}{%
+        {{hash=da07760949eb9cf7af3231d1f20fb2dd}{%
+           family={Fermilab},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{fullhash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{bibnamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authorbibnamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authornamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authorfullhash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tevatron}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.fnal.gov/pub/tevatron/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.fnal.gov/pub/tevatron/index.html
       \endverb
     \endentry
     \entry{gfitter}{online}{}
@@ -147,6 +282,41 @@
       \endverb
       \verb{url}
       \verb http://greiterweb.de/spw/Standardmodell-Elementarteilchen.htm
+      \endverb
+    \endentry
+    \entry{unsicherheiten}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=048a45b836a049c75b1f378e4324a81c}{%
+           family={Hays},
+           familyi={H\bibinitperiod},
+           given={Christopher\bibnamedelima Paul},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{048a45b836a049c75b1f378e4324a81c}
+      \strng{fullhash}{048a45b836a049c75b1f378e4324a81c}
+      \strng{bibnamehash}{048a45b836a049c75b1f378e4324a81c}
+      \strng{authorbibnamehash}{048a45b836a049c75b1f378e4324a81c}
+      \strng{authornamehash}{048a45b836a049c75b1f378e4324a81c}
+      \strng{authorfullhash}{048a45b836a049c75b1f378e4324a81c}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proceedings, 40th Rencontres de Moriond on QCD and High Energy Hadronic Interactions: La Thuile, Aosta Valley, Italy, March 12-19, 2005}}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{{$W$ boson mass measurement at the Tevatron}}
+      \field{year}{2005}
+      \field{pages}{263\bibrangedash 266}
+      \range{pages}{4}
+      \verb{eprint}
+      \verb hep-ex/0505064
+      \endverb
+      \verb{urlraw}
+      \verb http://lss.fnal.gov/cgi-bin/find_paper.pl?conf-05-210-E
+      \endverb
+      \verb{url}
+      \verb http://lss.fnal.gov/cgi-bin/find_paper.pl?conf-05-210-E
       \endverb
     \endentry
     \entry{vorlesung}{online}{}
@@ -209,6 +379,67 @@
       \endverb
       \verb{url}
       \verb https://www-zeuthen.desy.de/~husemann/teaching/2009_ss/exp_teilchenphysik/skript/skript_04.pdf
+      \endverb
+    \endentry
+    \entry{recoil}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fce410208c35bb4c314694654ee9173a}{%
+           family={Kotwal},
+           familyi={K\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fce410208c35bb4c314694654ee9173a}
+      \strng{fullhash}{fce410208c35bb4c314694654ee9173a}
+      \strng{bibnamehash}{fce410208c35bb4c314694654ee9173a}
+      \strng{authorbibnamehash}{fce410208c35bb4c314694654ee9173a}
+      \strng{authornamehash}{fce410208c35bb4c314694654ee9173a}
+      \strng{authorfullhash}{fce410208c35bb4c314694654ee9173a}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measurement of the W Boson Mass at CDF}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://wwwteor.mi.infn.it/~vicini/ashutoshBNL.pdf
+      \endverb
+      \verb{url}
+      \verb http://wwwteor.mi.infn.it/~vicini/ashutoshBNL.pdf
+      \endverb
+    \endentry
+    \entry{particle_zoo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b554a11741d94cd84521f31906ee771a}{%
+           family={Zoo},
+           familyi={Z\bibinitperiod},
+           given={Particle},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b554a11741d94cd84521f31906ee771a}
+      \strng{fullhash}{b554a11741d94cd84521f31906ee771a}
+      \strng{bibnamehash}{b554a11741d94cd84521f31906ee771a}
+      \strng{authorbibnamehash}{b554a11741d94cd84521f31906ee771a}
+      \strng{authornamehash}{b554a11741d94cd84521f31906ee771a}
+      \strng{authorfullhash}{b554a11741d94cd84521f31906ee771a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{W Boson}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.particlezoo.net/products/w-boson
+      \endverb
+      \verb{url}
+      \verb https://www.particlezoo.net/products/w-boson
       \endverb
     \endentry
   \enddatalist

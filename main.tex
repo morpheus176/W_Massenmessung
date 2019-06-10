@@ -150,7 +150,9 @@
    \begin{itemize}
      \item Im Gegensatz zum Z-Nachweis im Zerfall $Z \rightarrow \ell^+ \ell^-$ über die invariante Masse des Leptonpaares kann man hier die Vierervektoren der Zerfallsprodukte nicht vollstandig bestimmen
      \item longitudinaler Impuls $p_z$ des Schwerpunktsystems der Kollision ist, weil das System geboostet ist, nicht bekannt \\
-     \item[$\longrightarrow$] Lösung: Verwendung transversaler Größen
+     \begin{itemize}
+       \item[$\rightarrow$] Lösung: Verwendung transversaler Größen
+     \end{itemize}
    \end{itemize}
 \end{frame}
 
@@ -243,9 +245,9 @@
 
 \subsection{Beschleuniger-Kette}
 
-\begin{frame}
+\begin{frame}{Beschleuniger-Kette}
   \begin{figure}
-    \includegraphics[width=0.55\textwidth]{images/accelerator_chain.jpg}
+    \includegraphics[width=0.54\textwidth]{images/accelerator_chain.jpg}
     \caption{Beschleuniger-Kette am Fermilab \cite{accelerator_chain}.}
     % \label{}
   \end{figure}
@@ -280,7 +282,7 @@
 
 \begin{frame}{Event Generation}
   \begin{itemize}
-    \item wichitge Größen:
+    \item wichtige Größen:
     \begin{itemize}
       \item[\rightarrow] Teilimpulse der Valenzquarks
       \item[\rightarrow] Transversalimpuls des W-Bosons $p_T$
@@ -336,62 +338,120 @@
   \end{itemize}
 \end{frame}
 
-\subsection{Track Momentum Calibration}
+\subsection{Impulskalibration}
 
-\begin{frame}{Track Momentum Calibration}
+\begin{frame}{Impulskalibration}
   \begin{itemize}
     \item Der Impuls eines geladenen Teilchens wird durch seine Ablenkung im Tracker bestimmt
     \item Da $p \sim \frac{1}{r}$, wird der Impuls als eine Funktion des inversen Impulses des $J/\psi$ skaliert
     \item Um die Auflösung zu verbessern wird die Position des Strahls bei Myon-Spuren von W- und Z-Zerfällen beim Track-Fit mitberücksichtigt
   \end{itemize}
-  A charged particle’s momentum is measured through its observed curvature in the tracker.
-  Since the momentum is inversely proportional to curvature, the momentum scale is measured
-  as a function of the mean inverse momentum of J/ψ muons and fit to a line. The line has zero
-  slope, verifying the applicability of the extracted scale to W boson decays.
-  To improve momentum resolution, muon tracks from W and Z decays use the beam position
-  as a point in the track fit. This constraint cannot be applied to J/ψ decays since they can be
-  separated from the beam line. Instead, Υ decays are used to verify that the beam constraint
-  produces no bias on the momentum calibration. A systematic uncertainty of 15 MeV accounts
-  for the observed difference in scale. Including the uncertainty due to tracker alignment, CDF
-  estimates an uncertainty of δm W (p T scale) = 25 MeV.
+  % A charged particle’s momentum is measured through its observed curvature in the tracker.
+  % Since the momentum is inversely proportional to curvature, the momentum scale is measured
+  % as a function of the mean inverse momentum of J/ψ muons and fit to a line. The line has zero
+  % slope, verifying the applicability of the extracted scale to W boson decays.
+  % To improve momentum resolution, muon tracks from W and Z decays use the beam position
+  % as a point in the track fit. This constraint cannot be applied to J/ψ decays since they can be
+  % separated from the beam line. Instead, Υ decays are used to verify that the beam constraint
+  % produces no bias on the momentum calibration. A systematic uncertainty of 15 MeV accounts
+  % for the observed difference in scale. Including the uncertainty due to tracker alignment, CDF
+  % estimates an uncertainty of δm W (p T scale) = 25 MeV.
 \end{frame}
 
-\subsection{Calorimeter Energy Calibration}
-
-\begin{frame}{Calorimeter Energy Calibration}
+\begin{frame}
   \begin{itemize}
-    \item Das elektromagnetische Kalorimeter wird mithilfe der Elektronen-Tracks aus den W-Zerfällen kalibriert
-    \item
+    \item Dieser Contraint kann aber nicht auf $J/\psi$-Zerfälle angewendet werden, da diese auch außerhalb der Beamline auftreten können
+    \item[\rightarrow] Verwendung von $\Upsilon$-Zerfällen, um sicherzustellen, dass der Beam-Constraint keinen Bias verursacht
+    \item Es ergibt sich eine Unsicherheit von $\SI{15}{\MeV}$ aufgrund der unterschiedlichen Skalierungen
+    \item Zusammen mit der Unsicherheit aufgrund der Tracker-Anordnung ergibt sich eine Unsicherheit von $\delta m_W (p_T \: \text{scale}) = \SI{25}{\MeV}$
+  \end{itemize}
+\end{frame}
+
+\subsection{Kalibration des em. Kalorimeters}
+
+\begin{frame}{Kalibration des em. Kalorimeters}
+  \begin{itemize}
+    \item Nach der Impuls-Kalibration wird das elektromagnetische Kalorimeter mithilfe der Elektronen-Tracks aus den W-Zerfällen kalibriert
+    \item Die Kalorimeter-Energie wird so skaliert, dass $\frac{E}{p} = \num{1}$ gilt
+    \item Um dies an eine energieabhängige Skala anzupassen, wird die $\frac{E}{p}$-Verteilung als Funktion der Elektron $E_T$ gefittet und mit einem Korrekturfaktor versehen
   \end{itemize}
 
 
-  Given the momentum calibration, electron tracks from W decays are used to calibrate the
-  electromagnetic calorimeter. The calorimeter energy is scaled such that the ratio of energy
-  to track momentum (E/p) is equal to 1. To correct for an energy-dependent scale, the E/p
-  distribution is fit as a function of electron E T and a correction applied.
-  The significant amount of material in the silicon detector inside the tracker affects the posi-
-  tion of the E/p peak. An uncertainty on the amount of material translates into an uncertainty
-  on the measured E scale. The fraction of events in the region 1.19 < E/p < 1.85 is a mea-
-  sure of the material. The extent to which this region is not well modelled results in a 55 MeV
-  uncertainty on the W mass. This uncertainty dominates the total δm W (E scale) of 70 MeV.
+  % Given the momentum calibration, electron tracks from W decays are used to calibrate the
+  % electromagnetic calorimeter. The calorimeter energy is scaled such that the ratio of energy
+  % to track momentum (E/p) is equal to 1. To correct for an energy-dependent scale, the E/p
+  % distribution is fit as a function of electron E T and a correction applied.
+  % The significant amount of material in the silicon detector inside the tracker affects the posi-
+  % tion of the E/p peak. An uncertainty on the amount of material translates into an uncertainty
+  % on the measured E scale. The fraction of events in the region 1.19 < E/p < 1.85 is a mea-
+  % sure of the material. The extent to which this region is not well modelled results in a 55 MeV
+  % uncertainty on the W mass. This uncertainty dominates the total δm W (E scale) of 70 MeV.
 \end{frame}
 
-\subsection{Hadronic Recoil Measurement and Simulation}
-
-\begin{frame}{Hadronic Recoil Measurement and Simulation}
-  The hadronic recoil energy is measured by vectorially summing all the energy in the calorimeter,
-  excluding that contributed by the l. The detector response to the hadronic energy is defined as R = u meas /u true , where u true is the recoil energy of the W boson. The response is measured
-using Z → ll, since the l is measured more precisely than the hadronic energy.
-The hadronic energy resolution is modelled as having a component from the underlying event
-(independent of recoil) and a component from the recoiling hadrons. The model parameters are
-tuned using the resolution of Z → ll along the axis bisecting the leptons. This axis is the least
-susceptible to fluctuations in l energy. The recoil response and resolution uncertainty on the W
-mass is 50 MeV, of which 37 MeV is due to the model of the underlying energy resolution.
+\begin{frame}
+  \begin{itemize}
+    \item Die Menge an passivem Material im Silizium-Detektor innerhalb des Trackers beeinflusst die Position des $\frac{E}{p}$-Peaks
+    \begin{itemize}
+      \item[\rightarrow] Die Unsicherheit der Menge des Materials geht direkt in die Unsicherheit der Energieskala über
+    \end{itemize}
+    \item Da dies nicht so gut modelliert werden kann beträgt die Unsicherheit aufgrund des Materials $\SI{55}{\MeV}$, was den Großteil der totalen Unsicherheit von $\delta m_W (E \: \text{scale}) = \SI{70}{\MeV}$ ausmacht
+  \end{itemize}
 \end{frame}
 
-\subsection{Backgrounds}
+\subsection{Bestimmung des hadronischen Recoils}
 
-\begin{frame}{Backgrounds}
+\begin{frame}{Bestimmung des hadronischen Recoils}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.8\textwidth]{images/w-recoil.png}
+        \caption{Recoil beim semileptonischen W-Zerfall \cite{recoil}.}
+        % \label{}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{itemize}
+        \item Energie des hadronischen Recoils wird durch Summation über die komplette im Kalorimeter deponierte Energie bestimmt, ausgenommen die Energie des Leptons
+        \item Die Detektorantwort auf die Hadronenergie wird als $R = \frac{u_\text{meas}}{u_\text{true}}$ definiert
+        \begin{itemize}
+          \item[\rightarrow] $u_\text{true} \: \hat{=} \: \text{Recoil-Energie des W-Bosons}$
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+
+  % The hadronic recoil energy is measured by vectorially summing all the energy in the calorimeter,
+  % excluding that contributed by the l. The detector response to the hadronic energy is defined as R = u meas /u true , where u true is the recoil energy of the W boson. The response is measured
+% using Z → ll, since the l is measured more precisely than the hadronic energy.
+% The hadronic energy resolution is modelled as having a component from the underlying event
+% (independent of recoil) and a component from the recoiling hadrons. The model parameters are
+% tuned using the resolution of Z → ll along the axis bisecting the leptons. This axis is the least
+% susceptible to fluctuations in l energy. The recoil response and resolution uncertainty on the W
+% mass is 50 MeV, of which 37 MeV is due to the model of the underlying energy resolution.
+\end{frame}
+
+\begin{frame}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/z-recoil.png}
+        \caption{Recoil beim leptonischen Z-Zerfall \cite{recoil}.}
+        % \label{}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{itemize}
+        \item kalibriert wird $R$ mithilfe des $Z \rightarrow \ell \ell$-Zerfalls, da die Leptonenergie genauer bestimmt werden kann
+        \item es ergibt sich eine Unsicherheit von $\delta m_W (\text{recoil}) = \SI{50}{\MeV}$
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{Untergrund-Abschätzung}
+
+\begin{frame}{Untergrund-Abschätzung}
   \begin{itemize}
     \item Häufiger Untergrund bei $W \rightarrow e \nu$ und $W \rightarrow \mu \nu$ Zerfällen
     \begin{itemize}
@@ -424,35 +484,85 @@ mass is 50 MeV, of which 37 MeV is due to the model of the underlying energy res
   % the decay-in-flight background estimated by fitting the ∆φ(l, E
   % of W and decay-in-flight distributions. These estimates result in δm W (background) = 20 MeV.
 \end{frame}
+
 \begin{frame}
   \begin{itemize}
     \item Die W- und Z-Untergründe werden mithilfe von Monte-Carlo-Simulationen abgeschätzt
     \item Die Abschätzung des Dijet-Untergrundes nutzt Events mit signifikanter Energie um $\ell$ herum, um den hadronischen Untergrund zu erhöhen und eine $\cancel{\it{E}}_{T}$-Verteilung für den Untergrund zu gewinnen
-    \item[\rightarrow] Die $\cancel{\it{E}}_{T}$-Verteilung wird mit den W- und Dijet-Verteilungen als Input gefittet
+    \begin{itemize}
+      \item[\rightarrow] Die $\cancel{\it{E}}_{T}$-Verteilung wird mit den W- und Dijet-Verteilungen als Input gefittet
+    \end{itemize}
     \item Der Untergrund aufgrund von kosmischer Strahlung wird mithilfe der Track-Hit Zeiten abgeschätzt
     \item Insgesamt ergibt sich eine Unsicherheit von $\delta m_W (\text{background}) = \SI{20}{\MeV}$
   \end{itemize}
 \end{frame}
 
-\subsection{Mass Fit and Systematics}
+\subsection{Massenfit}
 
-\begin{frame}{Mass Fit and Systematics}
-  Given the energy calibrations, recoil model, and background estimation, the m T distribution is
- fit for the e and μ channels. The predicted line shape agrees with that of the data (Fig. 1).
- The central value is blinded while CDF cross-checks the analysis with independent data sets
- and simulation. Combining the two channels (Table 1) results in δm W = 76 MeV.
+\begin{frame}{Massenfit}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/m-fit.png}
+        \caption{Gefittete Masseverteilung des W-Bosons \cite{unsicherheiten}.}
+        % \label{}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{itemize}
+        \item $m_T$-Verteilung wird für den $e$- und $\mu$-Kanal gefittet
+        \item Die Daten sind dabei geblindet und es wird eine Kreuzvalidierung mit unabhängigen Datensätzen und Simulationen durchgeführt
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+  % Given the energy calibrations, recoil model, and background estimation, the m T distribution is
+ % fit for the e and μ channels. The predicted line shape agrees with that of the data (Fig. 1).
+ % The central value is blinded while CDF cross-checks the analysis with independent data sets
+ % and simulation. Combining the two channels (Table 1) results in δm W = 76 MeV.
 \end{frame}
 
-\begin{frame}{Zusammenfassung}
+\subsection{Unsicherheiten}
+
+\begin{frame}{Unsicherheiten}
   \begin{figure}
     \includegraphics[width=\textwidth]{images/unsicherheiten.png}
-    \caption{Unsicherheiten der W-Massenmessung in $\frac{\si{\MeV}}{c^2}$ bei der Nutzung von $\SI{0,2}{\femto \barn^{-1}}$ von CDF Run 2 Daten. In Klammern sind die Unsicherheiten aus CDF Run 1B.}
+    \caption{Unsicherheiten der W-Massenmessung in $\frac{\si{\MeV}}{c^2}$ bei der Nutzung von $\SI{0,2}{\femto \barn^{-1}}$ von CDF Run 2 Daten. In Klammern sind die Unsicherheiten aus CDF Run 1B \cite{unsicherheiten}.}
     % \label{}
   \end{figure}
+  \begin{itemize}
+    \item Die Komibation beider Kanäle ergibt eine Unsicherheit von $\delta m_W = \SI{76}{\MeV}$
+  \end{itemize}
 \end{frame}
 
+\section{Zusammenfassung}
 
+\begin{frame}{Zusammenfassung}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.8\textwidth]{images/comparison2.png}
+        \caption{Darstellung und Vergleich aller W-Massenmessungen \cite{comparison2}}
+        % \label{}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{itemize}
+        \item World average: $m_W = \SI{80,379(12)}{\GeV}$
+        \item Das Besondere an dieser Messung ist die hohe Präzision
+        \item Analyse dauert deswegen sehr lange (ATLAS: 2011 bis 2018)
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
 
+\section{Fragen}
+
+\begin{frame}
+\begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
+\includegraphics[width=0.7\textwidth]{images/particle_zoo.jpg}
+\end{beamercolorbox}%
+\end{frame}
 
 % \begin{frame}{Transversale Größen}
  % \begin{columns}
@@ -467,15 +577,13 @@ mass is 50 MeV, of which 37 MeV is due to the model of the underlying energy res
 
 % \section{Test}
 %
-% \begin{frame}
-  % \begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
-    % \includegraphics[width=0.3\textwidth]{images/particle_zoo.jpg}
-  % \end{beamercolorbox}%
-% \end{frame}
 
 \section{Literatur}
 \begin{frame}[allowframebreaks]{Literatur}
   \printbibliography
 \end{frame}
 
+\nocite{comparison}
+\nocite{tevatron}
+\nocite{particle_zoo}
 \end{document}

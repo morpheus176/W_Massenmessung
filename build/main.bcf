@@ -2004,6 +2004,16 @@
     <bcf:citekey order="7">accelerator_chain</bcf:citekey>
     <bcf:citekey order="8">CDF_aufbau</bcf:citekey>
     <bcf:citekey order="9">D0</bcf:citekey>
+    <bcf:citekey order="10">recoil</bcf:citekey>
+    <bcf:citekey order="11">recoil</bcf:citekey>
+    <bcf:citekey order="12">unsicherheiten</bcf:citekey>
+    <bcf:citekey order="13">unsicherheiten</bcf:citekey>
+    <bcf:citekey order="14">unsicherheiten</bcf:citekey>
+    <bcf:citekey order="15">comparison2</bcf:citekey>
+    <bcf:citekey order="16">comparison2</bcf:citekey>
+    <bcf:citekey order="17" nocite="1">comparison</bcf:citekey>
+    <bcf:citekey order="18" nocite="1">tevatron</bcf:citekey>
+    <bcf:citekey order="19" nocite="1">particle_zoo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
