@@ -35,12 +35,12 @@
 \usepackage{svrsymbols}
 \usepackage{cancel}
 
-% \AtBeginSection[]{
-  % \frame{
-    % \frametitle{Inhaltsverzeichnis}
-      % \tableofcontents[currentsection]
-  % }
-% }
+\AtBeginSection[]{
+  \frame{
+    \frametitle{Inhaltsverzeichnis}
+      \tableofcontents[currentsection]
+  }
+}
 
 % load the theme after all packages
 
@@ -149,7 +149,7 @@
 \begin{frame}{Theoretische Grundlagen}
    \begin{itemize}
      \item Im Gegensatz zum Z-Nachweis im Zerfall $Z \rightarrow \ell^+ \ell^-$ über die invariante Masse des Leptonpaares kann man hier die Vierervektoren der Zerfallsprodukte nicht vollstandig bestimmen
-     \item longitudinaler Impuls $p_z$ des Schwerpunktsystems der Kollision ist, weil das System geboostet ist, nicht bekannt \\
+     \item longitudinaler Impuls $p_z$ des Schwerpunktsystems der Kollision ist, weil das System geboostet ist, nicht bekannt
      \begin{itemize}
        \item[$\rightarrow$] Lösung: Verwendung transversaler Größen
      \end{itemize}
@@ -160,7 +160,7 @@
   \begin{itemize}
     \item im Zerfall $W \rightarrow \ell \nu$ insbesondere die Transversalimpulse des Leptons $p^\ell_T$ und des Neutrinos $p^\nu_T$ von besonderem Interesse
     \item Der Transversalimpuls des Neutrinos kann nur indirekt über "fehlende transversale Energie"  $\cancel{\it{E}}_{T}$ bestimmt werden
-    \item Wenn man annimmt, dass das Neutrino das einzige Teilchen ist, das undetektiert dem Detektor entkommt, kann man ̈uber die Erhaltung des Transversalimpulses $\sum \vec{p}_T$ die transversale Flugrichtung und Energie des Neutrinos bestimmen.
+    \item Wenn man annimmt, dass das Neutrino das einzige Teilchen ist, das undetektiert dem Detektor entkommt, kann man über die Erhaltung des Transversalimpulses $\sum \vec{p}_T$ die transversale Flugrichtung und Energie des Neutrinos bestimmen.
   \end{itemize}
 \end{frame}
 
@@ -222,13 +222,13 @@
 
 \subsection{Allgemeines}
 
-\begin{frame}{Weltkarte}
+\begin{frame}{Tevatron}
   \begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
     \includegraphics[width=\textwidth]{images/map.png}
   \end{beamercolorbox}%
 \end{frame}
 
-\begin{frame}{Tevatron}
+\begin{frame}
     \begin{itemize}
       \item Betrieb durch das Fermilab (Batavia, Illinois)
       \item Proton-Antiproton-Beschleuniger
@@ -261,7 +261,7 @@
 
 \subsection{Detektoren}
 
-\subsubsection{CDF}
+% \subsubsection{CDF}
 
 \begin{frame}{CDF}
     \begin{figure}
@@ -272,7 +272,7 @@
 \end{frame}
 
 
-\subsubsection{D0}
+% \subsubsection{D0}
 
 \begin{frame}{D0}
   \begin{figure}
@@ -406,7 +406,7 @@
     \begin{itemize}
       \item[\rightarrow] Unsicherheit aufgrund des Materials beträgt $\SI{55}{\MeV}$
     \end{itemize}
-    \item Dies macht den Großteil der totalen Unsicherheit von $\delta m_W (E \: \text{scale}) = \SI{70}{\MeV}$ ausausmacht
+    \item Dies macht den Großteil der totalen Unsicherheit von $\delta m_W (E \: \text{scale}) = \SI{70}{\MeV}$ aus
   \end{itemize}
 \end{frame}
 
