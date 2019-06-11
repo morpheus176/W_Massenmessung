@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1560187568 "build/main.bcf" "build/main.bbl" "build/main" 1560237355
-  "build/main.bcf" 1560237355 92392 ef6462c085e9e02d4c16e27e86eea8c7 ""
+["biber build/main"] 1560187568 "build/main.bcf" "build/main.bbl" "build/main" 1560237743
+  "build/main.bcf" 1560237742 92392 ef6462c085e9e02d4c16e27e86eea8c7 ""
   "lit.bib" 1560187563 4012 ab78f9b25b84fcfbfe5f614154c19905 ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1560237344 "main.tex" "build/main.pdf" "main" 1560237355
+  "build/main.blg"
+["lualatex"] 1560237731 "main.tex" "build/main.pdf" "main" 1560237743
   "/home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraMono-Regular.otf" 1480098676 125128 1833525722fa5fe9d78ea08b4c7258a5 ""
   "/home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf" 1480098676 359048 020f40e1d993eebe994bf90a060f9dde ""
   "/home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf" 1480098676 366052 f255f5eaf67ade842bae0d10ec988b81 ""
@@ -249,11 +249,11 @@
   "/home/julia/.local/texlive/2018/texmf-var/tex/generic/config/language.dat.lua" 1556373322 17423 ee53d58e2dee873c4d5570fa1cbb360c ""
   "/home/julia/.local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt" 1556373377 1370329 636103ccd82549bbddb8bbc12ef1abf0 ""
   "beamerthemetudo.sty" 1558109028 6300 7b98dbe35b74965726ed45d862e110af ""
-  "build/main.aux" 1560237355 21251 7b34cb01f363ba227ca0271c40700b80 ""
+  "build/main.aux" 1560237742 21821 5e32a2a987c99c94a87c8a567bea7457 ""
   "build/main.bbl" 1560187571 17771 5fba98c65d2e8c0b17e38d273ff91b22 "biber build/main"
-  "build/main.nav" 1560237355 7293 94516a96c0505c52e24134cfbb8d1db3 ""
-  "build/main.run.xml" 1560237355 2332 92eb7e111376163c7e892f4dba938796 ""
-  "build/main.toc" 1560237355 1358 092f88f10585b0b90c802135e99f318a ""
+  "build/main.nav" 1560237742 7437 48d5e3f0a270ef9a867d601249dae747 ""
+  "build/main.run.xml" 1560237742 2332 92eb7e111376163c7e892f4dba938796 ""
+  "build/main.toc" 1560237742 1394 bb555e45c49359ba1ed81dfca5a880ae ""
   "images/CDF.png" 1559757831 200935 03a8aba39e2fb147ecdc39c99caf9487 ""
   "images/accelerator_chain.jpg" 1558286194 146672 dc754232535b6b9b8592754b40e7101e ""
   "images/cdf.jpg" 1558286931 344261 bc3ef8e1327aa3f8a9c19fda4e5f91f3 ""
@@ -270,13 +270,13 @@
   "images/w-recoil.png" 1560180531 100724 be90e1ca7d5dd2d53ccfdd32b3b23e64 ""
   "images/z-recoil.png" 1560170797 111413 2c5cc6602e4e9261ccfcd8da63506dad ""
   "logos/tu.pdf" 1558109028 13157 1c5905f8a3419899042add57a2182b18 ""
-  "main.tex" 1560237340 25046 26f8205bb6aa9ab988758628663cc422 ""
+  "main.tex" 1560237707 25118 642acff0de9985e297ed81dbaacbde2d ""
   (generated)
-  "build/main.snm"
-  "build/main.bcf"
-  "build/main.run.xml"
-  "build/main.aux"
-  "build/main.toc"
   "build/main.pdf"
   "build/main.log"
+  "build/main.bcf"
+  "build/main.aux"
+  "build/main.run.xml"
+  "build/main.toc"
+  "build/main.snm"
   "build/main.nav"

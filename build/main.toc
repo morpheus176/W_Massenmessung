@@ -11,7 +11,7 @@
 \beamer@subsectionintoc {2}{2}{Beschleuniger-Kette}{17}{0}{2}
 \beamer@subsectionintoc {2}{3}{Detektoren}{18}{0}{2}
 \beamer@sectionintoc {3}{Messstrategie und Unsicherheiten am Beispiel von CDF Run II Daten}{20}{0}{3}
-\beamer@subsectionintoc {3}{1}{Event Generation}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Modellierung von Produktion und Zerfall des W-Bosons}{21}{0}{3}
 \beamer@subsectionintoc {3}{2}{Impulskalibration}{24}{0}{3}
 \beamer@subsectionintoc {3}{3}{Kalibration des em. Kalorimeters}{26}{0}{3}
 \beamer@subsectionintoc {3}{4}{Bestimmung des hadronischen Recoils}{28}{0}{3}
