@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'build/main.blg'
-[22] biber:315> INFO - === Mo Jun 10, 2019, 19:26:11
-[42] Biber.pm:371> INFO - Reading 'build/main.bcf'
-[95] Biber.pm:889> INFO - Found 13 citekeys in bib section 0
-[106] Biber.pm:4093> INFO - Processing section 0
-[114] Biber.pm:4254> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[115] bibtex.pm:1523> INFO - LaTeX decoding ...
-[127] bibtex.pm:1340> INFO - Found BibTeX data source 'lit.bib'
-[167] Utils.pm:193> WARN - month field 'Feb' in entry 'comparison' is not an integer - this will probably not sort properly.
-[189] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[190] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[190] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[190] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[202] bbl.pm:636> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[23] biber:315> INFO - === Di Jun 11, 2019, 14:47:37
+[43] Biber.pm:371> INFO - Reading 'build/main.bcf'
+[96] Biber.pm:889> INFO - Found 13 citekeys in bib section 0
+[107] Biber.pm:4093> INFO - Processing section 0
+[115] Biber.pm:4254> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[116] bibtex.pm:1523> INFO - LaTeX decoding ...
+[128] bibtex.pm:1340> INFO - Found BibTeX data source 'lit.bib'
+[169] Utils.pm:193> WARN - month field 'Feb' in entry 'comparison' is not an integer - this will probably not sort properly.
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[192] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[192] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[204] bbl.pm:636> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
 [208] bbl.pm:739> INFO - Output to build/main.bbl
-[208] Biber.pm:110> INFO - WARNINGS: 1
+[209] Biber.pm:110> INFO - WARNINGS: 1

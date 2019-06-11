@@ -67,7 +67,7 @@
 
 \maketitle
 
-\begin{frame}[allowframebreaks]{Inhaltsverzeichnis}
+\begin{frame}{Inhaltsverzeichnis}
   \tableofcontents
 \end{frame}
 
@@ -86,7 +86,7 @@
     \end{column}
     \begin{column}{0.4\textwidth}
       \begin{itemize}
-        \item Eichboson \rightarrow Elementarteilchen
+        \item Eichboson
         \item vermittelt in der elektroschwachen Theorie die geladenen Ströme
         \item Ladung: $q = \pm e$
         \item Spin: $s = 1$
@@ -157,11 +157,22 @@
 \end{frame}
 
 \begin{frame}
-  \begin{itemize}
-    \item im Zerfall $W \rightarrow \ell \nu$ insbesondere die Transversalimpulse des Leptons $p^\ell_T$ und des Neutrinos $p^\nu_T$ von besonderem Interesse
-    \item Der Transversalimpuls des Neutrinos kann nur indirekt über "fehlende transversale Energie"  $\cancel{\it{E}}_{T}$ bestimmt werden
-    \item Wenn man annimmt, dass das Neutrino das einzige Teilchen ist, das undetektiert dem Detektor entkommt, kann man über die Erhaltung des Transversalimpulses $\sum \vec{p}_T$ die transversale Flugrichtung und Energie des Neutrinos bestimmen.
-  \end{itemize}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.8\textwidth]{images/w-recoil.png}
+        \caption{Impulsverteilung beim semileptonischen W-Zerfall \cite{recoil}}
+        % \label{}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{itemize}
+        \item im Zerfall $W \rightarrow \ell \nu$ insbesondere die Transversalimpulse des Leptons $p^\ell_T$ und des Neutrinos $p^\nu_T$ von besonderem Interesse
+        \item Der Transversalimpuls des Neutrinos kann nur indirekt über "fehlende transversale Energie"  $\cancel{\it{E}}_{T}$ bestimmt werden
+        \item Wenn man annimmt, dass das Neutrino das einzige Teilchen ist, das undetektiert dem Detektor entkommt, kann man über die Erhaltung des Transversalimpulses $\sum \vec{p}_T$ die transversale Flugrichtung und Energie des Neutrinos bestimmen.
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
@@ -333,7 +344,7 @@
     \item Durch das Abstrahlen verringert sich der Impuls des Leptons wodurch eine geringere W-Masse rekonstruiert wird
     \item Dies wird mithilfe von Simulationen korrigiert
     \item Nicht simuliert werden Photonemissionen im Anfangszustand, Interferenz und Terme höherer Ordnung
-    \item[\rightarrow] $\num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
+    \item[\rightarrow] $\delta m_W (\text{radiation})= \num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
 
     % In the W decay, the most important effect for the W mass measurement is the radiation
     % of a γ from a final-state l ± . This radiation results in a reduced l ± momentum, potentially
@@ -568,7 +579,8 @@
   \end{columns}
 \end{frame}
 
-\section{Fragen}
+% \section{Fragen}
+\section{}
 
 \begin{frame}
   \begin{beamercolorbox}[center, wd=\textwidth]{titlegraphic}
@@ -590,7 +602,7 @@
 % \section{Test}
 %
 
-\section{Literatur}
+% \section{Literatur}
 \begin{frame}[allowframebreaks]{Literatur}
   \printbibliography
 \end{frame}

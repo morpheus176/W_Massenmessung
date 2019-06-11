@@ -436,8 +436,6 @@ INPUT build/main.toc
 INPUT build/main.toc
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
 INPUT build/main.toc
 INPUT build/main.toc
 INPUT ./logos/tu.pdf
@@ -477,6 +475,9 @@ INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./images/w-recoil.png
+INPUT ./images/w-recoil.png
+INPUT ./images/w-recoil.png
 INPUT /home/julia/.local/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc
 INPUT /home/julia/.local/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-italic.luc
 INPUT ./logos/tu.pdf
@@ -569,7 +570,6 @@ INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./images/w-recoil.png
 INPUT ./images/w-recoil.png
-INPUT ./images/w-recoil.png
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./images/z-recoil.png
@@ -600,17 +600,9 @@ INPUT ./images/comparison2.png
 INPUT ./images/comparison2.png
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
-INPUT build/main.toc
-INPUT build/main.toc
-INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
 INPUT ./images/particle_zoo.jpg
 INPUT ./images/particle_zoo.jpg
 INPUT ./images/particle_zoo.jpg
-INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
-INPUT build/main.toc
-INPUT build/main.toc
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
