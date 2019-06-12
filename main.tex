@@ -61,6 +61,7 @@
 \author[Julia ~Sobolewski]{Julia Sobolewski}
 \institute[Fakultät Physik]{Fakultät Physik}
 \titlegraphic{\includegraphics[width=0.7\textwidth]{images/cdf.jpg}}
+\date{12.06.2019}
 
 
 \begin{document}
@@ -179,7 +180,7 @@
   \begin{itemize}
     \item eine weitere Observable ist die "transversale Masse" $m_T$
     \begin{equation*}
-      m_T = 2 p^\ell_T p^\nu_T \left(1 - \cos{\left(\varphi^\ell-\varphi^\nu \right)} \right)
+      m^2_T = 2 p^\ell_T p^\nu_T \left(1 - \cos{\left(\varphi^\ell-\varphi^\nu \right)} \right)
     \end{equation*}
     \begin{center}
       \small{$p^\nu_T = \cancel{\it{E}}_{T}$, $\varphi^\ell-\varphi^\nu \: \hat{=} \: \text{Öffnungswinkel zwischen den Transversalimpulsen des Leptons und des Neutrinos}$}
@@ -211,6 +212,7 @@
           \frac{\symup{d} \cos{(\theta)}}{\symup{d} \mu} = \frac{\symup{d}}{\symup{d}\mu} \sqrt{1-\mu^2} = - \frac{\mu}{\sqrt{1-\mu^2}}
         \end{equation*}
         \item Der differenzielle Wirkungsquerschnitt als Funktion von $m_T$ besitzt damit einen scharfen Knick bei $m_T = m_W$ , den man als "Jacobi-Kante" bezeichnet
+        \item analog $\frac{\symup{d} \sigma}{\symup{d} p_T}$: Jacobi-Kante bei $p_T = \frac{m_w}{2}$
       \end{itemize}
     \end{column}
   \end{columns}
@@ -218,7 +220,7 @@
 
 \begin{frame}
   \begin{itemize}
-    \item Eine Jacobi-Kante tritt analog auch im differenziellen Wirkungsquerschnitt $\frac{\symup{d} \sigma}{\symup{d} p_T}$ bei einem Transversalimpuls von $p_T = \frac{m_w}{2}$ auf
+
     \item Im Experiment ist Jacobi-Kante verschmiert
     \begin{itemize}
       \item[\rightarrow] W-Boson wird i.A. nicht in Ruhe erzeugt
@@ -344,7 +346,9 @@
     \item Durch das Abstrahlen verringert sich der Impuls des Leptons wodurch eine geringere W-Masse rekonstruiert wird
     \item Dies wird mithilfe von Simulationen korrigiert
     \item Nicht simuliert werden Photonemissionen im Anfangszustand, Interferenz und Terme höherer Ordnung
-    \item[\rightarrow] $\delta m_W (\text{radiation})= \num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
+    \begin{itemize}
+      \item[\rightarrow] $\delta m_W (\text{radiation})= \num{20}$ ($\num{15}$) $\si{\MeV}$ für den $\mu$- ($e$-) Kanal
+    \end{itemize}
 
     % In the W decay, the most important effect for the W mass measurement is the radiation
     % of a γ from a final-state l ± . This radiation results in a reduced l ± momentum, potentially
@@ -377,7 +381,7 @@
 
 \begin{frame}
   \begin{itemize}
-    \item Dieser Contraint kann aber nicht auf $J/\psi$-Zerfälle angewendet werden, da diese auch außerhalb der Beamline auftreten können
+    \item Dieser Constraint kann aber nicht auf $J/\psi$-Zerfälle angewendet werden, da diese auch außerhalb der Beamline auftreten können
     \begin{itemize}
       \item[\rightarrow] Verwendung von $\Upsilon$-Zerfällen, um sicherzustellen, dass der Beam-Constraint keinen Bias verursacht
     \end{itemize}
