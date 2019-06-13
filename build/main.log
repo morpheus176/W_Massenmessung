@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.27)  12 JUN 2019 21:42
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.27)  13 JUN 2019 09:57
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.071 seconds
+luaotfload | main : initialization completed in 0.460 seconds
 (/home/julia/.local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 
@@ -971,24 +971,24 @@ Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
 ldf
 File: gloss-german.ldf polyglossia: module for german
 Module polyglossia Info: Language data for german
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            synonyms	table: 0x65741b0
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0x58105c0
 (polyglossia)            patterns: hyph-de-1901.pat.txt on input line 6
 Module polyglossia Info: Language german was not yet loaded; created with id 4 o
 n input line 6
 Module polyglossia Info: Language german already loaded; id is 4 on input line 6
 
 Module polyglossia Info: Language data for ngerman
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            synonyms	table: 0x6574380
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0x5810790
 (polyglossia)            patterns: hyph-de-1996.pat.txt on input line 68
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 8 
 on input line 68
@@ -2662,7 +2662,7 @@ tack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:5,2:742,3:285,4:317,5:367,6:95,7:2905,8:127,9:298,10:24,11:148
 ,12:1
  50660 multiletter control sequences out of 65536+600000
- 198 fonts using 45051199 bytes
+ 198 fonts using 45051331 bytes
  64i,18n,132p,868b,3370s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraMono-
 Regular.otf></home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/public/lm
@@ -2677,7 +2677,7 @@ iraSans-Medium.otf></home/julia/.local/texlive/2018/texmf-dist/fonts/opentype/pu
 blic/fira/FiraSans-Light.otf></home/julia/.local/texlive/2018/texmf-dist/fonts/t
 ype1/public/svrsymbols/SVRsymbols.pfb></home/julia/.local/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (37 pages, 2214461 bytes).
+Output written on main.pdf (37 pages, 2214455 bytes).
 
 PDF statistics: 656 PDF objects out of 1000 (max. 8388607)
  540 compressed objects within 6 object streams
